@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Entire working HTML content from canvas goes here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LEVEL UP: Christopher Estrada's Learning Reflection</title>
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      background-color: #0d0d0d;
+      color: #00ffff;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      color: #ffd700;
+      text-shadow: 0 0 10px #ffd700;
+    }
+    .level {
+      background-color: #1e1e1e;
+      border: 2px solid #00ffff;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 700px;
+      box-shadow: 0 0 15px #00ffff;
+    }
+    .level h2 {
+      color: #ff00ff;
+      text-shadow: 0 0 5px #ff00ff;
+    }
+    .level p {
+      color: #f0f0f0;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #00ffff;
+      color: #000;
+      padding: 10px 20px;
+      margin-top: 10px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #00cccc;
+    }
+    @keyframes fadeInLevel {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes bounceXP {
+      0% { transform: scale(1); opacity: 0.6; }
+      50% { transform: scale(1.2); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+
+    .fade-in {
+      animation: fadeInLevel 0.6s ease-out;
+    }
+
+    .xp-pop {
+      animation: bounceXP 0.8s ease-out;
+    }
+
+    .btn-glow {
+      animation: pulseBtn 2s infinite;
+    }
+
+    @keyframes pulseBtn {
+      0% { box-shadow: 0 0 5px #00ffff; }
+      50% { box-shadow: 0 0 15px #00ffff; }
+      100% { box-shadow: 0 0 5px #00ffff; }
+    }
+
+    .feedback-msg {
+      animation: fadeInLevel 0.5s ease-in;
+    }
+  </style>
+</head>
+<body>
+<!-- Place the rest of your working HTML content here -->
+</body>
+</html>
